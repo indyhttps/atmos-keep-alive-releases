@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "files": [
+    {
+      "file": "AtmosDirectSpatial.exe",
+      "sha256": "8b88144c036d85129b08ac35f0130b2e2f952f4016fcacd3906a4468d214f1f9",
+      "bytes": 312832
+    },
+    {
+      "file": "AtmosDirectSpatialCapture.dll",
+      "sha256": "80394942811c0830debe4fe7401a6c9bf817507779c1464fd45935e495007275",
+      "bytes": 142848
+    },
+    {
+      "file": "Capture.Common.ps1",
+      "sha256": "fcd9852a70db64131cc07285b70563e92642ce5e790932b0781ce306ebce8628",
+      "bytes": 8615
+    },
+    {
+      "file": "Restore-Capture.ps1",
+      "sha256": "86e924b026ce3901d84cc785df7b5b7bf7b2daf257f5326baeeb15305059b730",
+      "bytes": 3606
+    },
+    {
+      "file": "LEIA-ME.txt",
+      "sha256": "4ef1065e4128a7089050106ffde17d75fb2eed134cb41bbda4abd728b42d4a32",
+      "bytes": 2132
+    },
+    {
+      "file": "installer\\Lifecycle.ps1",
+      "sha256": "c272f21117831f3aa25ca95f4a222884afa7878d55271cb7138ae2deae0dbfab",
+      "bytes": 10079
+    },
+    {
+      "file": "installer\\Lifecycle.Core.ps1",
+      "sha256": "2da5bcc651f8e2bbd98a3fd607e65643c3fe86651d6e1b07987ab9047e59b2c9",
+      "bytes": 18778
+    }
+  ]
+}

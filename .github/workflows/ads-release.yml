@@ -1,0 +1,23 @@
+name: Publish Atmos Direct Spatial
+on:
+  push:
+    branches: [main]
+    paths: ['AtmosDirectSpatial-release/release.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: atmos-direct-spatial-release
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the committed package
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+      - name: Verify and publish this exact package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: python3 AtmosDirectSpatial-release/publish.py

@@ -1,0 +1,35 @@
+ATMOS DIRECT SPATIAL - ADS-v1.0.0
+
+O programa captura o audio na saida fisica escolhida e entrega o upmix a dez
+objetos espaciais reais da API do Windows (5.1.4), sem criar outro dispositivo
+virtual. Requer Windows x64, Equalizer APO 1.4.2 x64 e som espacial configurado nessa
+saida. O instalador nao instala driver, muda a saida padrao ou remove VB-CABLE.
+
+Extraia o ZIP inteiro e abra AtmosDirectSpatialSetup.exe como usuario normal.
+Selecione a saida fisica ja associada ao Equalizer APO em GFX/EFX. O botao
+Configurar Equalizer APO abre o Device Selector para preparar essa associacao.
+Instale pelo setup e abra o controlador
+instalado como usuario normal e execute sua verificacao antes de reproduzir
+conteudo. Cada abertura comeca passando audio direto. A pausa encerra os objetos
+e libera o audio original. A atualizacao/remocao preserva o backup e recusa
+sobrescrever alteracoes desconhecidas na configuracao.
+
+Esta versao aceita estereo ou conteudo 5.1, inclusive em um portador de oito
+canais com apenas um par surround ativo. Conteudo 7.1 completo exige outra
+adaptacao. O upmix nao recupera os metadados originais de objetos de estereo.
+A igualdade bit a bit do DSP nao mede ganho, latencia ou resposta acustica da
+cadeia completa. VALIDATION.md registra o alcance dos testes.
+
+Uma instalacao integrada validou a captura/rota e teve confirmacao de surround
+e alturas. Dados pessoais, PCM, IDs locais e logs daquela sessao nao fazem parte
+do pacote. Equalizer APO, sua associacao e VB-CABLE sao componentes separados;
+sua remocao nao e feita por este produto.
+
+Para atualizar, extraia o novo pacote completo e use Atualizar instalacao.
+Para remover, use Desinstalar neste setup ou Aplicativos instalados do Windows.
+Feche somente os aplicativos de audio se o DLL estiver ocupado; o instalador
+nao reinicia servicos. Backups da configuracao continuam na pasta instalada.
+
+Releases, assinaturas e atualizador AtmosKeepAlive legados sao preservados.
+A fonte e mantida em repositorio privado. Nao foi inventada uma licenca: o
+repositorio de origem nao apresentava LICENSE/COPYING separado.

@@ -1,0 +1,16 @@
+{
+  "tag": "ADS-v1.0.0",
+  "version": "1.0.0",
+  "assets": [
+    {
+      "name": "AtmosDirectSpatial-1.0.0-Windows-x64.zip",
+      "size": 323137,
+      "sha256": "62575b81a98209c74bf05890c6aa4bc2f63507ab02bdd20b805767d6ebebbd45"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 107,
+      "sha256": "193a2c1fbc2f2c6067e9fefe6d005475a671c96d930661ebec12feb315004e7f"
+    }
+  ]
+}

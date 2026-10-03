@@ -1,0 +1,105 @@
+{
+    "schema":  1,
+    "product":  "Atmos Direct Spatial",
+    "version":  "1.0.0",
+    "tag":  "ADS-v1.0.0",
+    "distribution":  "public",
+    "privacy":  {
+                    "personal_device_data_distributed":  false,
+                    "pcm_distributed":  false,
+                    "private_audio_sources_distributed":  false,
+                    "signing_secrets_distributed":  false
+                },
+    "validation":  {
+                       "software_suites_previously_passed":  7,
+                       "dsp_scenarios":  15,
+                       "bit_identical_output_floats":  11520000,
+                       "windows_powershell":  "5.1",
+                       "lifecycle_fixture_assertions":  218,
+                       "lifecycle_fixtures_passed":  true,
+                       "real_file_lock_failure_recovery_passed":  true,
+                       "integrated_capture_route_validated":  true,
+                       "surround_height_listening_confirmed":  true,
+                       "gain_latency_acoustic_equivalence_measured":  false,
+                       "new_setup_ui_uac_registration_live_tested":  false,
+                       "system_audio_mutation_during_staging":  false
+                   },
+    "setup":  {
+                  "architecture":  "x64",
+                  "embedded_requested_execution_level":  "asInvoker",
+                  "hash_checked_worker_elevates":  true,
+                  "new_binary_signed":  false,
+                  "legacy_signatures_and_update_feed_changed":  false
+              },
+    "license":  {
+                    "separate_source_license_found":  false,
+                    "replacement_license_invented":  false
+                },
+    "files":  [
+                  {
+                      "file":  "AtmosDirectSpatial.exe",
+                      "bytes":  312832,
+                      "sha256":  "8b88144c036d85129b08ac35f0130b2e2f952f4016fcacd3906a4468d214f1f9"
+                  },
+                  {
+                      "file":  "AtmosDirectSpatialCapture.dll",
+                      "bytes":  142848,
+                      "sha256":  "80394942811c0830debe4fe7401a6c9bf817507779c1464fd45935e495007275"
+                  },
+                  {
+                      "file":  "AtmosDirectSpatialSetup.exe",
+                      "bytes":  173568,
+                      "sha256":  "dcc143c2b97a15e0e9590ca296b11ba8a11fc3f2a464806622fc7ac1e1ec4785"
+                  },
+                  {
+                      "file":  "Capture.Common.ps1",
+                      "bytes":  8615,
+                      "sha256":  "fcd9852a70db64131cc07285b70563e92642ce5e790932b0781ce306ebce8628"
+                  },
+                  {
+                      "file":  "installer/Lifecycle.Core.ps1",
+                      "bytes":  18778,
+                      "sha256":  "2da5bcc651f8e2bbd98a3fd607e65643c3fe86651d6e1b07987ab9047e59b2c9"
+                  },
+                  {
+                      "file":  "installer/Lifecycle.ps1",
+                      "bytes":  10079,
+                      "sha256":  "c272f21117831f3aa25ca95f4a222884afa7878d55271cb7138ae2deae0dbfab"
+                  },
+                  {
+                      "file":  "installer/payload.json",
+                      "bytes":  1199,
+                      "sha256":  "7acf82153fe51eb624138f2c34d1d85fecddfbdc91999f3b950937d45c652d2e"
+                  },
+                  {
+                      "file":  "LEIA-ME.txt",
+                      "bytes":  2132,
+                      "sha256":  "4ef1065e4128a7089050106ffde17d75fb2eed134cb41bbda4abd728b42d4a32"
+                  },
+                  {
+                      "file":  "README.md",
+                      "bytes":  2563,
+                      "sha256":  "7facf252030fee3f92eca72abbfc8e84b56bebac6a89920335ec6fe613468e1b"
+                  },
+                  {
+                      "file":  "Restore-Capture.ps1",
+                      "bytes":  3606,
+                      "sha256":  "86e924b026ce3901d84cc785df7b5b7bf7b2daf257f5326baeeb15305059b730"
+                  },
+                  {
+                      "file":  "SHA256SUMS.txt",
+                      "bytes":  1044,
+                      "sha256":  "109fd3fcbca12ba049736610b923bfef9899b716354b2c7c59793b9f01c7408a"
+                  },
+                  {
+                      "file":  "VALIDATION.md",
+                      "bytes":  2520,
+                      "sha256":  "f56350fee99abf2625c0cf211fe76c96f1886022ebae9db2556615e01266bed8"
+                  },
+                  {
+                      "file":  "VERSION",
+                      "bytes":  6,
+                      "sha256":  "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+                  }
+              ]
+}
