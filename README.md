@@ -1,17 +1,15 @@
-# Atmos Direct Spatial e releases do Atmos Keep-Alive
+# Atmos Direct Spatial
 
-A nova versao funciona na saida fisica escolhida, sem VB-CABLE ou outro dispositivo virtual. O upmix envia dez objetos espaciais estaticos 5.1.4 ao Windows Spatial Audio.
+[Baixar a versão oficial 1.1.0](https://github.com/indyhttps/atmos-keep-alive-releases/releases/tag/ADS-v1.1.0).
 
-[Baixar Atmos Direct Spatial 1.0.0](https://github.com/indyhttps/atmos-keep-alive-releases/releases/tag/ADS-v1.0.0).
+O aplicativo Windows 11 x64 usa a saída física escolhida e envia dez objetos estáticos 5.1.4 ao Windows Spatial Audio. A interface traz o visual do Mixer, bandeja, reabertura, preferências, presets e início no login. O código principal é mantido no repositório privado do projeto.
 
-1. Baixe o ZIP Windows x64 e extraia a pasta inteira.
-2. Abra `AtmosDirectSpatialSetup.exe` normalmente e selecione a saida fisica ja associada ao Equalizer APO.
-3. Clique em Instalar. Depois, abra o app pelo menu Iniciar, pause as fontes e use **Verificar e ativar**.
+1. Baixe o ZIP da release e confira `SHA256SUMS.txt`.
+2. Extraia o pacote completo e abra `AtmosDirectSpatialSetup.exe`.
+3. Confirme a instalação ou atualização. Abra pelo menu Iniciar e use **Upmix Atmos** depois de escolher e verificar a saída.
 
-Equalizer APO 1.4.2 x64 e um provedor espacial compativel na saida escolhida sao requisitos. Para um receiver Atmos via HDMI, habilite Dolby Atmos para home theater nessa saida. O setup oferece atualizar e desinstalar; a remocao tambem aparece nos aplicativos instalados do Windows. Os backups e as configuracoes externas sao preservados. Se o motor mantiver um arquivo ocupado, feche os aplicativos de audio e tente novamente.
+A captura exige Equalizer APO associado à saída física e um provedor espacial compatível. Atualizações preservam a saída registrada mesmo se o equipamento estiver desconectado; a ativação continua exigindo a saída e a rota válidas. O áudio direto permanece liberado enquanto a rota não estiver comprovada.
 
-Veja [o manual](AtmosDirectSpatial/LEIA-ME.txt) e [o escopo de validacao](AtmosDirectSpatial/VALIDATION.md). O codigo-fonte e mantido no repositorio privado do projeto. Este repositorio publico contem os artefatos e a documentacao para distribuicao.
+Consulte [o guia de uso](docs/USO.md) e [a validação](docs/VALIDACAO.md). O upmix sintetiza canais; não recupera objetos autorais de uma gravação estéreo. A entrega aos objetos por software não certifica fisicamente cada caixa ou o receiver.
 
-O upmix gera distribuicao espacial a partir do audio de entrada. Nao recupera os objetos autorais de uma mixagem Atmos original. Nao foi medido um ganho adicional de fidelidade ou a latencia ponta a ponta nesta versao.
-
-As releases antigas do Atmos Keep-Alive e suas assinaturas permanecem no historico. A nova linha usa nomes `AtmosDirectSpatial` e tags `ADS-*`, com `latest=false`, preservando o feed do atualizador legado e suas verificacoes RSA/SHA-256. O novo produto nao e fornecido como substituicao assinada de `AtmosKeepAlive.exe`.
+As releases antigas e suas assinaturas permanecem no histórico. A linha atual usa tags `ADS-*` e `latest=false`, preservando o atualizador do Atmos Keep-Alive. A versão ADS não substitui o executável legado assinado.

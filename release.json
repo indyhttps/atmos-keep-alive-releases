@@ -1,0 +1,21 @@
+{
+  "schema": 2,
+  "product": "Atmos Direct Spatial",
+  "version": "1.1.0",
+  "tag": "ADS-v1.1.0",
+  "latest": false,
+  "source_repository": "indyhttps/Dolby-Atmos-Upmix",
+  "source_commit": "f49939cc588bfdf2762f39769de8105625bffbd5",
+  "assets": [
+    {
+      "sha256": "6f10dd9f718fa45b2d5884e466947291dadd57e164b7e2c43496b82e899f48f7",
+      "bytes": 72463801,
+      "name": "AtmosDirectSpatial-ADS-v1.1.0-Windows.zip"
+    },
+    {
+      "sha256": "41ff840989ae119acee70ab62d156a924fa0003f86b77c845df4528e0aa105b1",
+      "bytes": 108,
+      "name": "SHA256SUMS.txt"
+    }
+  ]
+}
