@@ -28,6 +28,8 @@ Recuperação se refere a uma instalação interrompida. Uma operação já conf
 
 A remoção desassocia a captura e remove registros do produto. Mantém os backups, preferências e arquivos desconhecidos, além do aplicativo e suporte de recuperação inativos com hashes registrados. Isso permite remover a integração enquanto o assistente permanece aberto e reconhecer uma reinstalação segura.
 
+Nesta entrega, a instalação real da versão 1.1.0 foi concluída e conferida: 475 hashes do catálogo instalado, registro da versão, permissões da pasta protegida, ausência de transação pendente, bootstrap e interface instalada. A biblioteca anterior de captura foi removida e o backup original foi preservado. Captura, transporte e helper foram atualizados. A saída anteriormente registrada estava indisponível, portanto a integração permanece inativa até a reconexão e validação da rota.
+
 ## Reproduzir a validação
 
 ```powershell
